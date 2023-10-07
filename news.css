@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(53, 0, 90);
+    color: seashell;
+}
+
+.list {
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.114);
+    left: 0px;
+    top: 0px;
+    -webkit-backdrop-filter: blur(.5rem);
+    backdrop-filter: blur(0.5rem);
+    list-style-position: inside;
+    position: sticky;
+    display: flex;
+}
+
+
+
+.list-link {
+    display: block;
+    color: seashell;
+    padding: 12px;
+    text-align: center;
+    display: inline;
+    float: left;
+    text-decoration: none
+}
+
+.list-link:hover {
+    background-color: rgba(255, 255, 255, 0.183);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+pre {
+    font-size:25px ;
+}
+
+p {
+    font-size:25px ;
+}
