@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>亞洲來啊新聞網</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <img src="logo.png" style="width: 100%;">
+    </header>
+    <anv>
+        <ul class="list" id="list">
+            <li><a href="index.html" class="list-link" title="網站首頁">首頁</a></li>
+            <li><a href="add_news.html" class="list-link" title="你有靈感嗎?">新聞投稿</a></li>
+        </ul>
+    </anv>
+    <section>
+        <div id="newss">
+            <h1 class="error">404</h1>
+            <h2>我找不到你要的東西</h2>
+        </div>
+    </section>
+    <style>
+        body {
+            background-color: rgb(53, 0, 90);
+            color: seashell;
+        }
+    
+        .list {
+            justify-content: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgba(255, 255, 255, 0.114);
+            left: 0px;
+            top: 0px;
+            -webkit-backdrop-filter: blur(.5rem);
+            backdrop-filter: blur(0.5rem);
+            list-style-position: inside;
+            position: sticky;
+            display: flex;
+        }
+    
+    
+    
+        .list-link {
+            display: block;
+            color: seashell;
+            padding: 12px;
+            text-align: center;
+            display: inline;
+            float: left;
+            text-decoration: none
+        }
+    
+        #newss {
+            width: 98.7%;
+            text-align: center;
+            float: left;
+            padding: 10px;
+        }
+    
+        .error {
+            margin: 30px;
+            font-size: 120px;
+            color: transparent;
+            -webkit-text-stroke: 2px aqua;
+        }
+    </style>
+    </body>
+</html>

@@ -28,6 +28,8 @@ a {
     padding: 0;
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.114);
+    left: 0px;
+    top: 0px;
     -webkit-backdrop-filter: blur(.5rem);
     backdrop-filter: blur(0.5rem);
     list-style-position: inside;
@@ -46,6 +48,7 @@ a {
     float: left;
     text-decoration: none
 }
+
 
 .list-link:hover {
     background-color: rgba(255, 255, 255, 0.183);
