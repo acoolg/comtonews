@@ -1,24 +1,20 @@
 body {
-    background-color: rgb(53, 0, 90);
+    background-color: #1c2331; /* 主要背景色 */
+    color: #ffffff; /* 主要文字颜色 */
 }
 
-iframe {
-    overflow-x: auto;
-    
-}
 .card {
-    background-color: #00dc54;
+    background-color: #2c3e50; /* 卡片背景色 */
     border-radius: 20px;
     margin: 20px;
     height: 160px;
     text-align: center;
-    box-shadow: 10px 10px 5px #009439;
-    word-wrap:break-word;
+    box-shadow: 5px 5px 5px #34495e; /* 卡片阴影 */
 }
 
 a {
     text-decoration: none;
-    color: aqua;
+    color: #3498db; /* 链接颜色 */
 }
 
 .list {
@@ -27,7 +23,7 @@ a {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.114);
+    background-color: #34495e; /* 列表背景色 */
     left: 0px;
     top: 0px;
     -webkit-backdrop-filter: blur(.5rem);
@@ -37,19 +33,16 @@ a {
     display: flex;
 }
 
-
-
 .list-link {
     display: block;
-    color: seashell;
+    color: #ecf0f1; /* 列表链接颜色 */
     padding: 12px;
     text-align: center;
     display: inline;
     float: left;
-    text-decoration: none
+    text-decoration: none;
 }
 
-
 .list-link:hover {
-    background-color: rgba(255, 255, 255, 0.183);
+    background-color: #2c3e50; /* 鼠标悬停颜色 */
 }
