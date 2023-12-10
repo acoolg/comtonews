@@ -23,7 +23,7 @@ a {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #34495e; /* 列表背景色 */
+    background-color: #34495e8d; /* 列表背景色 */
     left: 0px;
     top: 0px;
     -webkit-backdrop-filter: blur(.5rem);
