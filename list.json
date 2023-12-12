@@ -1,11 +1,11 @@
 [
     {
-        "link": "index.html",
+        "link": "../index.html",
         "title": "網站首頁",
         "text": "首頁"
     },
     {
-        "link": "add_news.html",
+        "link": "../add_news.html",
         "title": "你有靈感嗎?",
         "text": "新聞投稿"
     }
