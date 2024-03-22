@@ -8,5 +8,9 @@
         "link": "../add_news.html",
         "title": "你有靈感嗎?",
         "text": "新聞投稿"
+    },{
+        "link":"../history.html",
+        "title":"你想不想知道本站歷史",
+        "text":"本站歷史"
     }
 ]
