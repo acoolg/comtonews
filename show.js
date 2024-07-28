@@ -1,5 +1,5 @@
 // 获取 JSON 数据并处理
-fetch('news.json')
+fetch('../news.json')
   .then(response => response.json())
   .then(data => {
     // 检查数据是否是数组
