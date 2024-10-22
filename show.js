@@ -1,5 +1,5 @@
 // 获取 JSON 数据并处理
-fetch('./news.json')
+fetch('https://acoolg.github.io/comtonews/news.json')
   .then(response => response.json())
   .then(data => {
     // 检查数据是否是数组
@@ -32,7 +32,7 @@ fetch('./news.json')
   });
 
 // 获取 JSON 数据并处理
-fetch('./list.json')
+fetch('https://acoolg.github.io/comtonews/list.json')
   .then(response => response.json())
   .then(jsonData => {
     // 初始化一个空字符串来存储生成的 HTML
